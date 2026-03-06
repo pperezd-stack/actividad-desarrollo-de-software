@@ -1,0 +1,93 @@
+*{
+box-sizing:border-box;
+}
+
+html, body{
+font-family: Arial, Helvetica, sans-serif;
+height:100%;
+width:100%;
+display:flex;
+justify-content:center;
+background-color:#f0f0f0;
+margin:0;
+}
+
+/* CONTENEDOR PRINCIPAL */
+
+.paula{
+width:900px;
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+margin:40px auto;
+}
+
+/* CONTENEDOR DE COLUMNAS */
+
+.contenedor{
+display:flex;
+align-items:stretch;
+}
+
+/* FOTO */
+
+.foto{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+display:block;
+margin:auto;
+margin-bottom:20px;
+}
+
+/* COLUMNAS */
+.columna-izquierda{
+width:40%;
+background-color:#5f899d;
+padding:30px;
+color:white;
+}
+
+.columna-derecha{
+width:60%;
+padding:30px;
+background:white;
+}
+/* TITULOS */
+
+h4{
+border-bottom:2px solid #00ffb3;
+padding-bottom:8px;
+margin-top:25px;
+}
+
+/* NOMBRE */
+
+h1{
+margin-bottom:8px;
+}
+
+h3{
+color:gray;
+margin-top:0;
+}
+
+/* BOTON */
+
+.botonI{
+display:block;
+width:fit-content;
+margin:30px auto 0 auto;
+padding:10px 20px;
+background-color:#7fffd4;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+color:black;
+}
+
+.botonI:hover{
+background-color:#5fe3c1;
+}
